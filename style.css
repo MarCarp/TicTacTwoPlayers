@@ -88,3 +88,14 @@ h1, p {
     background-color: transparent;
     border: none;
 }
+
+/* PLAYGRID */
+.playgrid {
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    gap: 20px;
+}
+.playgrid .square {
+    background-color: red;
+}
