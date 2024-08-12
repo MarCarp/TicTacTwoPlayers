@@ -99,3 +99,44 @@ h1, p {
 .playgrid .square {
     background-color: red;
 }
+
+/* MODAL */
+.modal-bg {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-bg:not(.active) {
+    display: none;
+}
+
+.modal-bg:not(.error) .error {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    background-color: var(--deepwhite);
+    border-radius: 5px;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 450px;
+    max-width: 90%;
+}
+
+.modal .title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.modal .btn {
+    appearance: none;
+    border: none;
+}
