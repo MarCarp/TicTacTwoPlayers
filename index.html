@@ -6,7 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400...700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/overlays.css">
     <script src="script.js" defer></script>
     <title>Tic-Tac-Two for Two</title>
 </head>
@@ -15,6 +16,18 @@
         <h1 class="main-title">Play Tic, Tac, Toe</h1>
         <p>Built with HTML, CSS, JavaScript and - of course - a lots of love !</p>
     </header>
+    <aside class="modal">
+        <div class="modal-cont">
+            <p class="title">Choose your name</p>
+            <p class="question">Player's name</p>
+            <input class="input-field" name="name" type="text">
+            <p class="error">Please enter a valid name</p>
+            <div class="btn-container">
+                <button class="btn cancel">Cancel</button>
+                <button class="btn confirm">Confirm</button>
+            </div>
+        </div>
+    </aside>
     <main class="main-content">
         <section id="configuration-container">
             <div class="players-container">
@@ -47,17 +60,5 @@
             </div>
         </section>
     </main>
-    <div class="modal-bg active">
-        <div class="modal">
-            <p class="title">Choose your name</p>
-            <p class="question">Player's name</p>
-            <input class="input-field" name="name" type="text">
-            <p class="error">Please enter a valid name</p>
-            <div class="btn-container">
-                <button class="btn cancel">Cancel</button>
-                <button class="btn confirm">Confirm</button>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
