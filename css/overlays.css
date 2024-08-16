@@ -1,4 +1,4 @@
-.modal {
+.modal-bg {
  background-color: rgba(0,0,0,0.5);
  position: fixed;
  top: 0;
@@ -16,7 +16,7 @@
 }
 
 
-.modal-cont {
+.modal {
  position: absolute;
  background-color: var(--deepwhite);
  border-radius: 5px;
@@ -29,28 +29,28 @@
  max-width: 90%;
 }
 
-.modal-cont .title {
+.modal .title {
  font-size: 3rem;
  font-weight: 700;
 }
 
-.modal-cont .btn {
+.modal .btn {
  font: inherit;
  appearance: none;
  border: none;
  cursor: pointer;
 }
 
-.modal-cont .btn.confirm {
+.modal .btn.confirm {
  background-color: var(--primary);
  border: 1px solid var(--primary);
  color: var(--deepwhite);
 }
 
-.modal-cont .btn.cancel {
+.modal .btn.cancel {
  color: var(--primary);
 }
 
-.modal-cont .btn.confirm:hover {
+.modal .btn.confirm:hover {
  background-color: var(--primary-hover);
 }
