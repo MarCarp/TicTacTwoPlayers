@@ -33,24 +33,3 @@
  font-size: 3rem;
  font-weight: 700;
 }
-
-.modal .btn {
- font: inherit;
- appearance: none;
- border: none;
- cursor: pointer;
-}
-
-.modal .btn.confirm {
- background-color: var(--primary);
- border: 1px solid var(--primary);
- color: var(--deepwhite);
-}
-
-.modal .btn.cancel {
- color: var(--primary);
-}
-
-.modal .btn.confirm:hover {
- background-color: var(--primary-hover);
-}
