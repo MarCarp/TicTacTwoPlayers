@@ -134,4 +134,9 @@ h1, p, button {
 
 .playgrid .square {
     background-color: var(--primary);
+    cursor: pointer;
+}
+
+.playgrid .square:hover {
+    background-color: red;
 }
