@@ -124,6 +124,10 @@ h1, p, button {
 }
 
 /* PLAYGRID */
+.playboard {
+    margin-top: 50px;
+}
+
 .playgrid {
     display: grid;
     justify-content: center;
