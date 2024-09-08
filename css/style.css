@@ -139,6 +139,19 @@ h1, p, button {
 .playgrid .square {
     background-color: var(--primary);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playgrid .symbol {
+    color: var(--deepwhite);
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.playgrid .square:not(:hover) .symbol {
+    display: none;
 }
 
 .playgrid .square:hover {
