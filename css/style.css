@@ -121,6 +121,7 @@ h1, p, button {
     font-size: 1.4rem;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 /* PLAYGRID */
