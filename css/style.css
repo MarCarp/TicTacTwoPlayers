@@ -77,6 +77,10 @@ h1, p, button {
     text-align: center;
 }
 
+#configuration-container .btn {
+    margin-top: 50px;
+}
+
 .main-content {
     padding: 100px;
 }
