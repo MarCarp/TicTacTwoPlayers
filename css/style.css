@@ -117,7 +117,7 @@ h1, p, button {
 
 .player .symbol {
     color: var(--deepblack);
-    font-size: 4rem;
+    font-size: 8rem;
     font-weight: 900;
 }
 
