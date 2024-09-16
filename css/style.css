@@ -29,7 +29,7 @@ h1, p, button {
 /* GENERIC */
 .btn {
     appearance: none;
-    font: inherit;
+    font-size: 1.4rem;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 5px;
