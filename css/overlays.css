@@ -33,3 +33,7 @@
  font-size: 3rem;
  font-weight: 700;
 }
+
+.modal .input-field {
+ margin: 20px 0;
+}
